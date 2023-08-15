@@ -1,0 +1,83 @@
+.container{
+    width: 50%;
+    height: 70vh;
+    display: grid;
+    place-items: center;
+    margin-left: 700px;
+    /* margin-top: 90px; */
+}
+
+.form_com{
+    width: 320px;
+    height: 370px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.form_com >h1{
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.inp_com{
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+.inp_com input{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(252, 128, 128);
+    color: black;
+}
+
+.inp_com label{
+    position: absolute;
+    left: 0;
+    top: 26px;
+    color: black;
+    transition: .5s;
+
+}
+
+.inp_com input:focus + label{
+    top: 0;
+}
+.inp_com input:valid + label{
+    top: 0;
+}
+
+button{
+    padding: 10px;
+    width: 85%;
+    margin-left: 30px;
+    border-radius: 15px;
+    background-color: rgba(245, 125, 40, 0.669);
+    color: white;
+    border: 1px solid rgba(245, 125, 40, 0.669);
+}
+
+.labal_email{
+    color: rgba(75, 67, 57, 0.5);;
+}
+/* .rang{
+    border: 2px solid rgba(245, 125, 40, 0.669);
+    width: 30%;
+    height: 290px;
+    margin-right: 1300px;
+    border-radius: 50%;
+    background-color: rgba(245, 125, 40, 0.669);
+} */
+
+.rasm{
+    margin-left: 40px;
+}

@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ranglar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+.button1{
+    width: 200px;
+    height: 40px;
+    border: 0;
+    margin: 50px;
+
+}
+.button2{
+    width: 200px;
+    height: 40px;
+    border: 0;
+    margin: 50px;
+
+}
+.button3{
+    width: 200px;
+    height: 40px;
+    border: 0;
+    margin: 50px;
+
+}
+.button4{
+    width: 200px;
+    height: 40px;
+    border: 0;
+    margin: 50px;
+
+}
+.button5{
+    width: 200px;
+    height: 40px;
+    border: 0;
+    margin: 50px;
+
+}
+.button6{
+    width: 200px;
+    height: 40px;
+    border: 0;
+    margin: 50px;
+
+}
+.div{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.hvr-shutter-out-horizontal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  background: #2098D1;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-shutter-out-horizontal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ff0000;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
+  color: white;
+}
+.hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+    </style>
+</head>
+<body style="background-color: gold;">
+    <div class="div" id="text">
+    <button onclick="firstt(event)" class="hvr-shutter-out-horizontal button1">Qizil </button>
+    <button onclick="secontt(event)" class="hvr-shutter-out-horizontal button2">Sariq</button>
+    <button onclick="uchinchi(event)" class="hvr-shutter-out-horizontal button2">Ko'k</button>
+    <button onclick="tortinchi(event)" class="hvr-shutter-out-horizontal button2">Qora</button>
+    <button onclick="beshinchi(event)" class="hvr-shutter-out-horizontal button2">To'q pushti</button>
+    <button onclick="oltinchi(event)" class="hvr-shutter-out-horizontal button2">Pushti</button>
+    <div>
+    <button style="text-decoration: none;color: darkslateblue;font-size: 20px;color: white;padding: 10px;margin-left: 900px;margin-top: 50px;background-color: deepskyblue;border-radius: 20px;"><a style="text-decoration: none;" href="./yasaganim.html">Orqaga</a></button>
+</div>
+</div>
+
+
+
+
+
+    <script>
+        let txt=document.getElementById('text');
+        function firstt(){
+            txt.style.background='red';
+        }
+        function secontt(){
+            txt.style.background='yellow';
+        }
+        function uchinchi(){
+            txt.style.background='green';
+        }
+        function tortinchi(){
+            txt.style.background='black';
+        }
+        function beshinchi(){
+            txt.style.background='purple';
+        }
+        function oltinchi(){
+            txt.style.background='pink';
+        }
+    </script>
+</body>
+</html>
